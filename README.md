@@ -1,16 +1,28 @@
-# counter_test_issam
+# Flutter Counter App
 
-A simple counter app.
+This is a simple Flutter application demonstrating state management using the `flutter_riverpod` package. The app allows users to increment and decrement a counter.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Increment the counter.
+- Decrement the counter.
+- State management using Riverpod.
 
-A few resources to get you started if this is your first Flutter project:
+## Project Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The project is organized as follows:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+lib/
+├── main.dart
+├── pages // all app pages/features
+├── common // all app helpers and constants
+└── widgets // all app common widgets
+
+### Installation
+
+1. Clone the repository:
+   git clone https://github.com/Adel0101/counter_app.git
+   cd flutter-counter-app
+2. Install dependencies:
+   flutter pub get
+3. run the app
