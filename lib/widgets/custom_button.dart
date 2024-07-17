@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
+  /// A custom button widget that accepts an iconData and a function.
   const CustomButton({
     super.key,
     required this.icon,
