@@ -1,4 +1,5 @@
 import 'package:counter_test_issam/common/constants.dart';
+import 'package:counter_test_issam/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -30,17 +31,13 @@ class HomePage extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  ElevatedButton(
-                    child: const Icon(Icons.remove),
-                    onPressed: () {
-                      print('decrement');
-                    },
+                  CustomButton(
+                    icon: Icons.remove,
+                    onPress: () {},
                   ),
-                  ElevatedButton(
-                    child: const Icon(Icons.add),
-                    onPressed: () {
-                      print('increment');
-                    },
+                  CustomButton(
+                    icon: Icons.add,
+                    onPress: () {},
                   ),
                 ],
               ),
